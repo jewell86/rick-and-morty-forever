@@ -16,6 +16,12 @@ function quote(character) {
   return character[Math.floor(Math.random() * character.length)]
 }
 
+
+console.log(quote(rick))
+
 module.exports = {
+  rick,
+  morty,
+  beth,
   quote
 }
