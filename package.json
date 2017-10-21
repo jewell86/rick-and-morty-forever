@@ -1,14 +1,12 @@
 {
   "name": "rick-and-morty-forever",
   "version": "0.0.1",
-  "description": "",
+  "description": "a rick and morty quote generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.4"
-  }
+  "dependencies": {}
 }
