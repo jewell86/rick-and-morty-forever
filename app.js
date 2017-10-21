@@ -14,6 +14,8 @@ const beth = [
   'I squanch my family.'
 ]
 
+/// could set a variable of the character array length, and the math rand
+
 function quote(character) {
   return _.sample(character)
 }
@@ -22,5 +24,8 @@ function quote(character) {
 //console.log(quote(rick))
 
 module.exports = {
+  rick,
+  beth,
+  morty,
   quote
 }
