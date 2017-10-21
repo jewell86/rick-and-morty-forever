@@ -15,5 +15,9 @@ function quote(quoteArray) {
 //console.log(objArray)
 
 module.exports = {
-  quote
+  quote,
+  characters,
+  rick,
+  beth,
+  morty
 }
