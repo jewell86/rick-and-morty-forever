@@ -13,7 +13,8 @@ const beth = [
 ]
 
 function quote(character) {
-  return character[Math.floor(Math.random() * character.length)]
+  let me = character
+  return me[Math.floor(Math.random() * me.length)]
 }
 
 
