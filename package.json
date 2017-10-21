@@ -1,6 +1,6 @@
 {
   "name": "rick-and-morty-forever",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a rick and morty quote generator",
   "main": "index.js",
   "scripts": {
