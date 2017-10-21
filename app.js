@@ -1,3 +1,5 @@
+const _ = require('lodash')
+
 const rick = [
   'Wubba lubba dub dub!',
   'Grasssss, tastes baddduh.'
@@ -13,12 +15,11 @@ const beth = [
 ]
 
 function quote(character) {
-  let me = character
-  return me[Math.floor(Math.random() * me.length)]
+  return _.sample(character)
 }
 
 
-console.log(quote(rick))
+//console.log(quote(rick))
 
 module.exports = {
   quote
