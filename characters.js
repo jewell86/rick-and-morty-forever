@@ -1,20 +1,21 @@
-const rick = [
-  'Wubba lubba dub dub!',
-  'Grasssss, tastes baddduh.'
-]
+const charsAndQuotes = {
 
-const morty = [
-  'Aw jeez, Rick',
-  'Aw, jeez'
-]
+  rick: [
+    'Wubba lubba dub dub!',
+    'Grasssss, tastes baddduh.'
+  ],
 
-const beth = [
-  'I squanch my family.'
-]
+  morty: [
+    'Aw jeez, Rick',
+    'Aw, jeez'
+  ],
 
+  beth: [
+    'I squanch my family.'
+  ]
+
+}
 
 module.exports = {
-  rick,
-  morty,
-  beth
+  charsAndQuotes
 }
