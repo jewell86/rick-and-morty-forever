@@ -20,8 +20,5 @@ function quote(character) {
 console.log(quote(rick))
 
 module.exports = {
-  rick,
-  morty,
-  beth,
   quote
 }
