@@ -12,8 +12,12 @@ const charsAndQuotes = {
 
   beth: [
     'I squanch my family.'
-  ]
+  ],
 
+  summer: [
+    'Boo nah?',
+    'Losers look stuff up while the rest of us are busy carpin all them diems'
+  ]
 }
 
 module.exports = {
